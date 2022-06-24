@@ -1,5 +1,6 @@
 import "./Language.scss";
 import { Link } from "react-router-dom";
+import backArrow from "../../assets/images/Back.png";
 
 function Language() {
   return (
@@ -7,7 +8,7 @@ function Language() {
       <section className="language__wrapper">
         <div className="language__left">
           <Link to="/" className="return">
-            <img src="/" alt="back arrow" className="return__img" />
+            <img src={backArrow} alt="back arrow" className="return__img" />
           </Link>
         </div>
 
