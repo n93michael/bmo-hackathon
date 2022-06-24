@@ -1,13 +1,13 @@
-import "./Account.scss";
+import "./Status.scss";
 import { Link } from "react-router-dom";
 import backArrow from "../../assets/images/Back.png";
 
-function Account() {
+function Status() {
   return (
     <section className="language">
       <section className="language__wrapper">
         <div className="language__left">
-          <Link to="/tfsa" className="return">
+          <Link to="/language" className="return">
             <img src={backArrow} alt="back arrow" className="return__img" />
           </Link>
         </div>
@@ -26,4 +26,4 @@ function Account() {
   );
 }
 
-export default Account;
+export default Status;
