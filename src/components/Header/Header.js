@@ -1,17 +1,20 @@
 import "./Header.scss";
+import logo from "../../assets/icons/logo.png"
 
 const Header = () => {
   return (
     <>
-      <header className="">
-        <nav className="">
-          <div className="">
-            <img className="" alt="/" src="/" />
+      <header className="header">
+        <nav className="header__nav">
+          <div className="header__holder">
+            <img className="header__logo" alt="BMO logo" src={logo} />
           </div>
 
-          <div className="">
-            <div className="">
-              <h1>HELLO FROM HEADER</h1>
+          <div className="header__container">
+             <h2 className="header__text">Français</h2>
+            <div className="header__hamburger">
+              <div className="header__hamburger"></div>
+              <div className="header__hamburger"></div>
             </div>
           </div>
         </nav>
