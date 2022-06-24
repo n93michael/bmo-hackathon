@@ -1,0 +1,47 @@
+.investing {
+  height: 100%;
+  padding: 3rem;
+
+  &__title {
+    margin-bottom: 3rem;
+  }
+
+  &__content {
+    font-family: "Heeobo";
+    line-height: 1.5rem;
+
+    &--top {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.investing-bold {
+  font-weight: bold;
+}
+
+.button {
+  width: 15.565rem;
+  height: 5.2rem;
+  background-color: #0279c1;
+  border-radius: 3rem;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  &--smaller {
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 1.25rem;
+  }
+}
