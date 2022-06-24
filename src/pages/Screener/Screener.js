@@ -1,6 +1,8 @@
+
 import "./Screener.scss";
 import { Link } from "react-router-dom";
 import backArrow from "../../assets/images/Back.png";
+
 
 function Screener() {
   return (
@@ -15,11 +17,15 @@ function Screener() {
         <div className="language__right">
           <div className="card">
             <div className="screener">
-              <div className="screener__title"> 
-              <h1 className="screener__text">Are you familiar with Canadian banking?</h1>
+              <div className="screener__title">
+                <h1 className="screener__text">
+                  Are you familiar with Canadian banking?
+                </h1>
                 <div className="screener__cta">
                   <div className="button">Yes</div>
-                  <Link to="/learnmore" className="screener__link"><div className="button">No</div></Link>
+                  <Link to="/learnmore" className="screener__link">
+                    <div className="button">No</div>
+                  </Link>
                 </div>
               </div>
             </div>
