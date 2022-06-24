@@ -35,13 +35,8 @@ function Tfsa() {
                 penalty, whenever you’d like
               </span>
               <div className="tfsa__button-container">
-                <Link className="tfsa__button button button__tfsa">
-                  Learn more about TFSAs
-                </Link>
-                <Link
-                  to="/account"
-                  className="tfsa__button button button__tfsa"
-                >
+                <Link className="tfsa__button ">Learn more about TFSAs</Link>
+                <Link to="/account" className="tfsa__button">
                   Open an investment account
                 </Link>
               </div>

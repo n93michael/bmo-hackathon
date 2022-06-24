@@ -86,7 +86,9 @@ function Account() {
           </div>
 
           <div className="skip">
-            <Link className="skip__link">Go back home</Link>
+            <Link to="/" className="skip__link">
+              Go back home
+            </Link>
           </div>
         </div>
       </section>
