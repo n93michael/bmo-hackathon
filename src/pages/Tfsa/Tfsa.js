@@ -1,18 +1,23 @@
-import './Tfsa.scss';
-import { Link } from 'react-router-dom';
-import backArrow from '../../assets/images/Back.png';
+
+import "./Tfsa.scss";
+import { Link } from "react-router-dom";
+import backArrow from "../../assets/images/Back.png";
+
 
 function Tfsa() {
   return (
     <section className="language">
       <section className="language__wrapper">
         <div className="language__left">
-          <Link to="/" className="return">
+
+          <Link to="/products" className="return">
+
             <img src={backArrow} alt="back arrow" className="return__img" />
           </Link>
         </div>
 
         <div className="language__right">
+
           <div className="card">
             <div className="tfsa__container">
               <h1 className="tfsa__title">Tax-Free Savings Account (TFSA)</h1>
@@ -44,6 +49,7 @@ function Tfsa() {
               </div>
             </div>
           </div>
+
           <div className="skip">
             <Link to="/" className="skip__link">
               Skip questionnaire and go back to the website
