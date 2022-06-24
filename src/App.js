@@ -1,21 +1,22 @@
 import "./App.scss";
-import "./styles/reset.scss"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Header from "./components/Header/Header";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    
-    <>
-      <h1>Hello from App </h1>
-      
-      <div className="card">
-        
-        <div className="cta">
-          <button className="button">Yes</button>
-          <button className="button">No</button>
-        </div>
-      </div>
-    </>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </Router>
   );
 }
 
 export default App;
+
+// Router / Switches
+
+// Header / Nav bar sits on top of the routes
