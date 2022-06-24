@@ -1,5 +1,6 @@
-import './Header.scss';
-import logo from '../../assets/icons/logo.png';
+import "./Header.scss";
+import logo from "../../assets/icons/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,9 +8,9 @@ const Header = () => {
       <header className="header">
         <nav className="header__nav">
           <div className="header__holder">
-            <a href="https://www.bmo.com">
+            <Link to="https://www.bmo.com">
               <img className="header__logo" alt="BMO logo" src={logo} />
-            </a>
+            </Link>
           </div>
 
           <div className="header__container">

@@ -1,6 +1,8 @@
-import './Screener.scss';
-import { Link } from 'react-router-dom';
-import backArrow from '../../assets/images/Back.png';
+
+import "./Screener.scss";
+import { Link } from "react-router-dom";
+import backArrow from "../../assets/images/Back.png";
+
 
 function Screener() {
   return (
