@@ -1,61 +1,63 @@
 .products {
+  &__unbold {
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    font-family: "Heebo", sans-serif;
+    padding-top: 1rem;
+  }
 
-    &__unbold {
-        font-weight: 400;
-        font-size: 2.25rem;
-        line-height: 2.25rem;
-        font-family: "Heebo", sans-serif;
-        padding-top: 1rem;
-    }
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
 
-    &__heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 3rem;
-    }
+  &__card {
+    box-shadow: 0px 2px 5px rgb(19 24 44 / 30%);
+    background-color: #f3f9fc;
+    border-radius: 5px;
+    width: 16.18rem;
+    height: 8.275rem;
+    margin-top: 5rem;
+    text-decoration: none;
 
-    &__card {
-        box-shadow: 0px 2px 5px rgb(19 24 44 / 30%);
-        background-color: #F3F9FC;
-        border-radius: 5px;
-        width: 16.18rem;
-        height: 8.275rem;
-        margin-top: 5rem;
-        
+    &:visited {
+      color: black;
     }
+  }
 
-    &__row-one {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 85%;
-        margin: 0 auto
-    }
+  &__row-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+  }
 
-    &__row-two {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 80%;
-        margin: 0 auto
-    }
+  &__row-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+  }
 
-    &__text {
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        width: 80%;
-        margin: 0 auto;
-    }
+  &__text {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+  }
 
-    &__label {
-        text-align: center;
-        margin: 1rem 0 1rem 0;
-    }
+  &__label {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+  }
 }
-

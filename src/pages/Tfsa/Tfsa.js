@@ -1,23 +1,18 @@
-
 import "./Tfsa.scss";
 import { Link } from "react-router-dom";
 import backArrow from "../../assets/images/Back.png";
-
 
 function Tfsa() {
   return (
     <section className="language">
       <section className="language__wrapper">
         <div className="language__left">
-
           <Link to="/products" className="return">
-
             <img src={backArrow} alt="back arrow" className="return__img" />
           </Link>
         </div>
 
         <div className="language__right">
-
           <div className="card">
             <div className="tfsa__container">
               <h1 className="tfsa__title">Tax-Free Savings Account (TFSA)</h1>
@@ -40,10 +35,13 @@ function Tfsa() {
                 penalty, whenever you’d like
               </span>
               <div className="tfsa__button-container">
-                <Link className="tfsa__button button">
+                <Link className="tfsa__button button button__tfsa">
                   Learn more about TFSAs
                 </Link>
-                <Link to="/account" className="tfsa__button button">
+                <Link
+                  to="/account"
+                  className="tfsa__button button button__tfsa"
+                >
                   Open an investment account
                 </Link>
               </div>
