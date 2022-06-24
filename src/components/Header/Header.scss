@@ -1,0 +1,29 @@
+
+
+.header {
+    padding: 2.5rem 4.5rem;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        color: #2285BC;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    &__hamburger {
+        width: 1rem;
+        margin-top: 0.25rem;
+        border-top: 2px solid #000000;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 15rem;
+    }
+}
