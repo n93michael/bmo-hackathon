@@ -13,7 +13,17 @@ function Screener() {
         </div>
 
         <div className="language__right">
-          <div className="card"></div>
+          <div className="card">
+            <div className="screener">
+              <div className="screener__title"> 
+              <h1 className="screener__text">Are you familiar with Canadian banking?</h1>
+                <div className="screener__cta">
+                  <div className="button">Yes</div>
+                  <Link to="/learnmore" className="screener__link"><div className="button">No</div></Link>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div className="skip">
             <Link to="/" className="skip__link">
