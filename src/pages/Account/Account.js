@@ -17,7 +17,7 @@ function Account() {
 
           <div className="skip">
             <Link to="/" className="skip__link">
-              Skip questionnaire and go back to the website
+              Go back home
             </Link>
           </div>
         </div>
