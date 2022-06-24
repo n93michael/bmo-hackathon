@@ -9,6 +9,8 @@ import LearnMore from "./pages/LearnMore/LearnMore";
 import Products from "./pages/Products/Products";
 import Tfsa from "./pages/Tfsa/Tfsa";
 import Account from "./pages/Account/Account";
+import Status from "./pages/Status/Status";
+import Investing from "./pages/Investing/Investing";
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/language" component={Language} />
+        <Route path="/status" component={Status} />
         <Route path="/screener" component={Screener} />
         <Route path="/learnmore" component={LearnMore} />
+        <Route path="/investing" component={Investing} />
         <Route path="/products" component={Products} />
         <Route path="/tfsa" component={Tfsa} />
         <Route path="/account" component={Account} />
