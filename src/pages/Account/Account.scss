@@ -1,0 +1,67 @@
+.account {
+  padding: 6rem;
+  height: 100%;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  &__card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  &__content {
+    margin: 1rem 0;
+    width: 75%;
+    font-family: "Heebo";
+  }
+
+  &__text {
+    text-align: center;
+  }
+}
+
+.account-bold {
+  font-weight: bold;
+}
+
+.absolute {
+  position: relative;
+
+  &__container {
+    height: 8rem;
+    width: 17rem;
+    position: absolute;
+    background-color: #ec1d22;
+    border-radius: 60px 0px 0px 60px;
+    right: 0;
+    top: 20%;
+  }
+
+  &__text {
+    font-family: "Heebo";
+    font-size: 20px;
+    color: white;
+    line-height: 2rem;
+    text-decoration: none;
+  }
+
+  &__content {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+  }
+}

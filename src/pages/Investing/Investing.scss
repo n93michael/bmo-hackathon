@@ -49,4 +49,16 @@
     width: 12rem;
     font-size: 1.25rem;
   }
+
+  &--long {
+    width: 18rem;
+  }
+
+  &__icon {
+    margin: 0 1rem 0 0;
+
+    &--special {
+      padding-bottom: 0.5rem;
+    }
+  }
 }
