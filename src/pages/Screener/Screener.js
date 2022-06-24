@@ -1,9 +1,8 @@
-import './Screener.scss';
+import "./Screener.scss";
+import { Link } from "react-router-dom";
+import backArrow from "../../assets/images/Back.png";
 
 function Screener() {
-<<<<<<< HEAD
-  return <div>Screener</div>;
-=======
   return (
     <section className="language">
       <section className="language__wrapper">
@@ -35,7 +34,6 @@ function Screener() {
       </section>
     </section>
   );
->>>>>>> develop
 }
 
 export default Screener;
