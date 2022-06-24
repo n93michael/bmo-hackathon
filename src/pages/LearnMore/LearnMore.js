@@ -13,7 +13,24 @@ function LearnMore() {
         </div>
 
         <div className="language__right">
-          <div className="card"></div>
+          <div className="card">
+            <div className="language__center">
+              <h1 className="learn__text">
+                You're not alone! Let's help you get a better understanding of
+                Canadian banking. What do you want to learn more about?
+              </h1>
+              <div className="button__container">
+                <div className="button button__margin">Taxes</div>
+                <Link className="learn__link" to="/investing">
+                  <div className="button button__margin">Investing</div>
+                </Link>
+                <div className="button button__margin">Saving</div>
+                <div className="button button__margin">Loan</div>
+                <div className="button button__margin">Credit</div>
+                <div className="button button__margin">Budgeting</div>
+              </div>
+            </div>
+          </div>
 
           <div className="skip">
             <Link to="/" className="skip__link">
