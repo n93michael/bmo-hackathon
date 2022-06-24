@@ -50,14 +50,14 @@ function Account() {
                     </p>
                   </div>
 
-                  <Link to="/" className="button button--smaller button--long">
+                  <div className="button button--smaller button--long">
                     <img
                       src={calendar}
                       alt="booknow"
                       className="button__icon button__icon--special"
                     />
                     <p className="button__text">Book an appointment</p>
-                  </Link>
+                  </div>
                 </div>
 
                 <div className="account__card">
@@ -76,19 +76,17 @@ function Account() {
                     </p>
                   </div>
 
-                  <Link to="/" className="button button--smaller button--long">
+                  <div className="button button--smaller button--long">
                     <img src={search} alt="booknow" className="button__icon" />
                     <p className="button__text">Explore Platforms</p>
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="skip">
-            <Link to="/" className="skip__link">
-              Go back home
-            </Link>
+            <Link className="skip__link">Go back home</Link>
           </div>
         </div>
       </section>
